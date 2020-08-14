@@ -1,33 +1,58 @@
 import React from "react";
-import "./About.css"
-import profile from "../images/profile.jpg"
-import { Col, Row, Container, Image } from "react-bootstrap"
-
+import profile from "../images/profile.jpg";
+import {
+  Col,
+  Row,
+  Container,
+  Image,
+  ButtonGroup,
+  Button,
+} from "react-bootstrap";
+import "./About.css";
 
 const About = () => {
-    return (
-        <Container>
-      <Image src={profile} style={{width: "200px", marginTop: "5%",}} roundedCircle />
+  return (
+    <Container>
+      <div className="containers">
+        <h1 className="name">Michael Srithapin</h1>
+        <div className="contactInfo">
+          800 Clearwell St. · Cedar Park, TX 78613 · (626) 278-4144
+        </div>
+        
+        <ButtonGroup className="mb-2">
+          <Button href="mailto:michael.srithapin@gmail.com" style={{backgroundColor: "#16697a", border: "black"}}>michael.srithapin@gmail.com</Button>
+          <Button href="https://www.linkedin.com/in/michael-srithapin" style={{backgroundColor: "#16697a", border: "black"}}>Linkedin</Button>
+          <Button href="https://github.com/Cranekick50" style={{backgroundColor: "#16697a", border: "black"}}>GitHub</Button>
+        </ButtonGroup>
+        <p className="aboutText">
+          New developer with full stack training. Studies include HTML, CSS,
+          Javascript, JQuery, NodeJS, API, React, SQL, and MongoDB.
+        </p>
         <hr />
-        <div className="containers">
-            <h1 className="name">Michael Srithapin</h1>
-            <div className="contactInfo">800 Clearwell St. · Cedar Park, TX 78613 · (626) 278-4144</div>
-        <div>
-          <a href="mailto:michael.srithapin@gmail.com">michael.srithapin@gmail.com  /</a>
-          <a href="www.linkedin.com/in/michael-srithapin">Linkedin Profile  /</a>
-          <a href="https://github.com/Cranekick50">GitHub Repository</a>
+      </div>
+      <Image
+        src={profile}
+        style={{ width: "200px", marginTop: "5%" }}
+        roundedCircle
+      />
+      <div>
+          <h1 style={{fontSize: "60px", marginTop: "5%"}}>
+        <i class="devicon-bootstrap-plain-wordmark"/>
+        <i class="devicon-css3-plain-wordmark" />
+        <i class="devicon-heroku-original-wordmark" />
+        <i class="devicon-html5-plain-wordmark" />
+        <i class="devicon-javascript-plain" />
+        <i class="devicon-react-original-wordmark" />
+        <i class="devicon-sequelize-plain" />
+        <i class="devicon-jquery-plain-wordmark" />
+        <i class="devicon-mongodb-plain-wordmark" />
+        <i class="devicon-mysql-plain-wordmark" />
+        </h1>
         </div>
-        <p className="aboutText">New developer with full stack training.  Studies include HTML, CSS, Javascript, JQuery, NodeJS, API, React, SQL, and MongoDB.</p>
-        </div>
-        </Container>
-    )
-}
-
-
-
-
-
-
-
+      
+      
+    </Container>
+  );
+};
 
 export default About;

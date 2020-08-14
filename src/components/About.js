@@ -11,8 +11,11 @@ const About = () => {
         <hr />
         <div className="containers">
             <h1 className="name">Michael Srithapin</h1>
-            <div className="contactInfo">800 Clearwell St. · Cedar Park, TX 78613 · (626) 278-4144 ·
-          <a href="mailto:michael.srithapin@gmail.com">michael.srithapin@gmail.com</a>
+            <div className="contactInfo">800 Clearwell St. · Cedar Park, TX 78613 · (626) 278-4144</div>
+        <div>
+          <a href="mailto:michael.srithapin@gmail.com">michael.srithapin@gmail.com  /</a>
+          <a href="www.linkedin.com/in/michael-srithapin">Linkedin Profile  /</a>
+          <a href="https://github.com/Cranekick50">GitHub Repository</a>
         </div>
         <p className="aboutText">New developer with full stack training.  Studies include HTML, CSS, Javascript, JQuery, NodeJS, API, React, SQL, and MongoDB.</p>
         </div>

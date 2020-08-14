@@ -3,6 +3,7 @@ import { Carousel } from "react-bootstrap"
 import teamAPI from "../images/teamAPI.jpg"
 import scheduler from "../images/scheduler.JPG"
 import weather from "../images/weatherAPI.JPG"
+import triggered from "../images/triggered.JPG"
 import "./Portfolio.css"
 
 
@@ -15,7 +16,7 @@ const Portfolio = () => {
           
             return (
                 
-              <Carousel style={{width: "80vw", margin: "10% auto"}} activeIndex={index} onSelect={handleSelect}>
+              <Carousel style={{width: "80vw", margin: "3% auto"}} activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
                 <a href="https://party-of-five.github.io/gitDrunk/" target="blank">
                   <img
@@ -65,6 +66,25 @@ const Portfolio = () => {
                     </div>
                   </Carousel.Caption>
                 </Carousel.Item>
+                <Carousel.Item>
+                <a href="https://project2-triggered.herokuapp.com/" target="blank">
+                  <img
+                    className="d-block w-100"
+                    src={triggered}
+                    alt="debate app"
+                  />
+                </a>
+          
+                  <Carousel.Caption>
+                  <div className="carouselText">
+                    <h3>Debate Application</h3>
+                    <p>
+                      Full stack application using react and sql.  Mobile first design.
+                    </p>
+                    </div>
+                  </Carousel.Caption>
+                </Carousel.Item>
+            
               </Carousel>
             );
           } 

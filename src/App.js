@@ -7,6 +7,8 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Portfolio from './components/Portfolio';
 
+
+
 const App = () => {
   return (
     <div className="App">

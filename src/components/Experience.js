@@ -1,9 +1,11 @@
 import React from "react";
 import "./Experience.css"
+import { Container } from "react-bootstrap";
 
 
 const Experience = () => {
     return (
+      <Container>
         <div>
         <h1 style={{marginTop: "5%"}}>Experience</h1>
 
@@ -41,6 +43,7 @@ const Experience = () => {
         </div>
 
         </div>
+        </Container>
     )
 }
 

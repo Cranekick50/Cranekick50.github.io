@@ -19,10 +19,10 @@ const About = () => {
           800 Clearwell St. · Cedar Park, TX 78613 · (626) 278-4144
         </div>
         
-        <ButtonGroup className="mb-2">
+        <ButtonGroup className="mb-2" style={{marginTop:"1%"}}>
           <Button href="mailto:michael.srithapin@gmail.com" style={{backgroundColor: "#16697a", border: "black"}}>michael.srithapin@gmail.com</Button>
-          <Button href="https://www.linkedin.com/in/michael-srithapin" style={{backgroundColor: "#16697a", border: "black"}}>Linkedin</Button>
-          <Button href="https://github.com/Cranekick50" style={{backgroundColor: "#16697a", border: "black"}}>GitHub</Button>
+          <Button href="https://www.linkedin.com/in/michael-srithapin" target="_blank" style={{backgroundColor: "#16697a", border: "black"}}>Linkedin</Button>
+          <Button href="https://github.com/Cranekick50" target="_blank" style={{backgroundColor: "#16697a", border: "black"}}>GitHub</Button>
         </ButtonGroup>
         <p className="aboutText">
           New developer with full stack training. Studies include HTML, CSS,

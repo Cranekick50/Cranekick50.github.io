@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1adab62a.chunk.css",
+    "main.js": "/static/js/main.f8044c8b.chunk.js",
+    "main.js.map": "/static/js/main.f8044c8b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.c794c759.chunk.js": "/static/js/2.c794c759.chunk.js",
+    "static/js/2.c794c759.chunk.js.map": "/static/js/2.c794c759.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d6b6116319cfaaa9a80f227aa7c5006a.js": "/precache-manifest.d6b6116319cfaaa9a80f227aa7c5006a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1adab62a.chunk.css.map": "/static/css/main.1adab62a.chunk.css.map",
+    "static/js/2.c794c759.chunk.js.LICENSE.txt": "/static/js/2.c794c759.chunk.js.LICENSE.txt",
+    "static/media/profile.jpg": "/static/media/profile.7950445e.jpg",
+    "static/media/scheduler.JPG": "/static/media/scheduler.3042aab8.JPG",
+    "static/media/teamAPI.jpg": "/static/media/teamAPI.a922041c.jpg",
+    "static/media/weatherAPI.JPG": "/static/media/weatherAPI.91d372e9.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.c794c759.chunk.js",
+    "static/css/main.1adab62a.chunk.css",
+    "static/js/main.f8044c8b.chunk.js"
+  ]
+}

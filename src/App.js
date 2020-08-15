@@ -1,11 +1,19 @@
 import React from 'react';
 import './App.css';
-import { Route, Switch } from "react-router-dom"
+import { HashRouter, Route, Switch } from "react-router-dom"
 import TopNav from './components/Navbar'
 import About from './components/About';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Portfolio from './components/Portfolio';
+
+app.use(express.static(path.join(__dirname, 'build')));
+
+
+app.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
 
 const App = () => {
   return (
